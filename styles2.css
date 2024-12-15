@@ -1,0 +1,106 @@
+/* Custom background color or background image */
+body {
+    background-color: #e0f7fa; /* Soft cyan background color */
+    background-image: url('your-image.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* Set primary font color */
+h1, h2, p, li {
+    color: #004d40; /* Dark teal color for text */
+}
+
+/* Specific font family for headings */
+h1, h2 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+/* Mission statement styling */
+#mission-statement p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #00796b; /* Lighter greenish text */
+    margin: 15px 0;
+}
+
+/* Numbered list */
+ol {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1em;
+    color: #00796b;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/* Unordered (bulleted) list */
+ul {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1em;
+    color: #00796b;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/* Links (e.g., "Scratch page") */
+a {
+    color: #0277bd; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #01579b; /* Darker blue for hover effect */
+}
+
+/* Styling for divs used for content blocks */
+#header {
+    margin-bottom: 20px;
+}
+
+#header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Circular image */
+    margin-right: 15px;
+}
+
+#content {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+#mission-statement {
+    margin-top: 30px;
+}
+
+#footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #004d40; /* Dark teal footer */
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Styling for each line of text (like graphs or extra content) */
+.line-item {
+    margin: 10px 0;
+    color: #004d40;
+}
+
+.graph-link {
+    font-size: 0.9em;
+    color: #0288d1; /* Light blue color for links */
+    text-decoration: none;
+}
+
+.graph-link:hover {
+    text-decoration: underline;
+    color: #01579b; /* Darker blue for hover */
+}
